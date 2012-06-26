@@ -41,8 +41,10 @@ savePlotCache <- function(b, plotcode, filename, width, height){
       width, 
       height
   )
-  saveRDS(newPlotCache, 
+  suppressWarnings(
+    saveRDS(newPlotCache, 
       file=filenamePlotCache(b, filename))
+  )
   invisible(NULL)
 }
 
