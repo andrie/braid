@@ -1,0 +1,48 @@
+braid 0.1-07 (13/7/2012)
+------------
+
+Changes
+* Cleaned imports in Namespace
+
+braid 0.1-06 (10/7/2012)
+------------
+
+Changes
+* Changed braidSave() and braidCompile() to S3 methods, each with default method. This enables extensions, such as braidppt (a stand-alone package)
+
+
+braid 0.1-05 (12/5/2012)
+------------
+
+Changes
+* Minor changes to compile on Linux
+
+braid 0.1-04 (1/11/2011)
+------------
+
+Improvements
+* braidCompile and braidLatexOutline now takes braid object as argument and automatically determines location of file to compile
+
+braid 0.1-03
+------------
+
+Improvements
+* Simplified file and path arguments to as.braid: file now only takes filename, not path
+* Now imports packages, rather than declaring dependency 
+
+braid 0.0-09
+------------
+
+Improvements
+* braidPlot no longer creates output files immediately.  Instead, all plots are queued and all saved when braidSave is called. 
+
+braid 0.0-06
+------------
+
+Improvements
+* Changed all function names to camelCase
+
+braid 0.0-06
+------------
+
+First publication to github
