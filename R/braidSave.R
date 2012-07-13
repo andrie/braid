@@ -8,7 +8,6 @@
 #' 
 #' Writes result to braid output file.
 #' 
-<<<<<<< HEAD
 #' @param b object
 #' @export
 braidSave <- function(b){
@@ -31,19 +30,6 @@ braidSave.default <- function(b){
   
   braidSavePlot(b)
   braidAppendPlot(b, reset=TRUE)
-=======
-#' @param braid A braid object
-#' @export
-braidSave <- function(braid){
-  text <- braidAppendText(braid)
-  sfile <- file(braid$fileInner, "at")  ### Open file in append mode
-  on.exit(close(sfile))
-  cat(text, file=sfile, append=TRUE)
-  braidAppendText(braid, reset=TRUE)
-  
-  braidSavePlot(braid)
-  braidAppendPlot(braid, reset=TRUE)
->>>>>>> 03a698d53a139e14f9fda73084583835cb609986
   invisible(NULL)
 }
 

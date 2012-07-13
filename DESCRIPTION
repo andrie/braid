@@ -12,7 +12,6 @@ Description: This package tries to solve the problem of
     creation of PDF files via LaTEX only.
 Author@R: person("Andrie", "de Vries",
     email="andrie@pentalibra.com")
-<<<<<<< HEAD
 Version: 0.1-07
 URL: https://github.com/andrie/braid
 Date: 2012-07-13
@@ -21,17 +20,6 @@ Imports:
     Hmisc,
     tools,
     plyr
-=======
-Version: 0.1-06
-URL: https://github.com/andrie/braid
-Date: 2012-06-25
-ByteCompile: yes
-Imports:
-    plyr,
-    Hmisc,
-    xtable,
-    tools
->>>>>>> 03a698d53a139e14f9fda73084583835cb609986
 Suggests:
     lattice,
     ggplot2
