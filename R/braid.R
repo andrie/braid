@@ -58,6 +58,7 @@ braidFilename <- function(b, counter=braidIncCounter(b),
 
 #------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 #' Compiles braid object.
 #' 
 #' @param b Object
@@ -67,6 +68,8 @@ braidCompile <- function(b, ...){
   UseMethod("braidCompile")
 }
 
+=======
+>>>>>>> 03a698d53a139e14f9fda73084583835cb609986
 #' Compiles braid latex file to PDF.
 #' 
 #' This is a wrapper around \code{\link[tools]{texi2dvi}} to convert a latex file to PDF output.  No other formats are currently supported.
@@ -75,10 +78,15 @@ braidCompile <- function(b, ...){
 #' @param fileOuter File location of a latex file
 #' @param output Determines what type of output to produce.  Default to "pdf", currently the only supported format
 #' @param useXelatex If TRUE, uses \code{xelatex} to compile the latex.  If FALSE, uses \code{\link[tools]{texi2dvi}}.  If "guess", it uses a heuristic to see whether \code{xelatex} should be used or not: it searches for \code{\\usepackage\{xe*\}} in the latexfile; if found, uses \code{xelatex} otherwise texi2dvi.
+<<<<<<< HEAD
 #' @param ... Ignored
 #' @method braidCompile default
 #' @export
 braidCompile.default <- function(b, fileOuter=b$fileOuter, output="pdf", useXelatex = TRUE, ...){
+=======
+#' @export
+braidCompile <- function(b, fileOuter=b$fileOuter, output="pdf", useXelatex = TRUE){
+>>>>>>> 03a698d53a139e14f9fda73084583835cb609986
   # Determine whether file exists
   if(!file.exists(fileOuter)) stop(paste("In braidCompile: file doesn't exist:", fileOuter))
   old_wd <- getwd()

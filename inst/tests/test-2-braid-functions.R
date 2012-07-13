@@ -8,9 +8,15 @@
 
 path <- tempdir()
 latex_path <- file.path(path, "latex")
+<<<<<<< HEAD
 dir.create(latex_path, showWarnings=FALSE,  recursive=TRUE)
 graph_path <- file.path(latex_path, "graphics")
 dir.create(graph_path, showWarnings=FALSE, recursive=TRUE)
+=======
+dir.create(latex_path, recursive=TRUE)
+graph_path <- file.path(latex_path, "graphics")
+dir.create(graph_path, recursive=TRUE)
+>>>>>>> 03a698d53a139e14f9fda73084583835cb609986
 sinkfile   <- file.path(latex_path, "braid_test.tex")
 
 clearFiles <- function(){
@@ -112,3 +118,7 @@ test_that("braidPlot saves trellis plot", {
 
 
 clearFiles()
+<<<<<<< HEAD
+=======
+unlink(path, recursive=TRUE)
+>>>>>>> 03a698d53a139e14f9fda73084583835cb609986

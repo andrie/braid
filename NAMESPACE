@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 S3method(braidCompile,default)
 S3method(braidSave,default)
+=======
+>>>>>>> 03a698d53a139e14f9fda73084583835cb609986
 export(as.braid)
 export(braidCompile)
 export(braidFilename)
@@ -10,7 +13,13 @@ export(braidSave)
 export(braidWrite)
 export(is.braid)
 export(latexTranslate)
+<<<<<<< HEAD
 importFrom(Hmisc,"%nin%")
 importFrom(Hmisc,"substring2<-")
 importFrom(Hmisc,sedit)
 importFrom(plyr,laply)
+=======
+import(Hmisc)
+import(tools)
+import(xtable)
+>>>>>>> 03a698d53a139e14f9fda73084583835cb609986

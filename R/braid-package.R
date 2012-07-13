@@ -33,10 +33,16 @@
 #' @name braid-package
 #' @aliases braid braid-package
 #' @docType package
+<<<<<<< HEAD
 #' @title A report writing system to create latex output from R.
 #' @author Andrie de Vries \email{andrie.de.vries@@pentalibra.com}
 #' @importFrom Hmisc sedit %nin% substring2<-
 #' @importFrom plyr laply
+=======
+#' @import Hmisc xtable tools
+#' @title A report writing system to create latex output from R.
+#' @author Andrie de Vries \email{andrie.de.vries@@pentalibra.com}
+>>>>>>> 03a698d53a139e14f9fda73084583835cb609986
 #' @keywords package
 
 NULL

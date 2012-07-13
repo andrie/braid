@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 braid 0.1-07 (13/7/2012)
 ------------
 
@@ -11,6 +12,8 @@ Changes
 * Changed braidSave() and braidCompile() to S3 methods, each with default method. This enables extensions, such as braidppt (a stand-alone package)
 
 
+=======
+>>>>>>> 03a698d53a139e14f9fda73084583835cb609986
 braid 0.1-05 (12/5/2012)
 ------------
 
