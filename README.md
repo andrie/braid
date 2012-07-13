@@ -8,3 +8,5 @@ It provides simple commands to create:
 * headings
 * text
 * embedded graphics
+
+The package is designed to be extendable with plugins.

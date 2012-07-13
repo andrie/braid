@@ -9,7 +9,7 @@ Author: Andrie de Vries <andrie@pentalibra.com>
 Description: This package tries to solve the problem of
     writing simple reports in R, without having to learn
     LaTEX and SWeave first.  At the moment it supports
-    creation of PDF files via LaTEX only.
+    creation of PDF files via LaTEX only...
 Author@R: person("Andrie", "de Vries",
     email="andrie@pentalibra.com")
 Version: 0.1-07
